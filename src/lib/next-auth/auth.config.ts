@@ -1,6 +1,6 @@
-import prisma from '@/lib/prisma'
 import { PrismaAdapter } from '@auth/prisma-adapter'
 import GithubProvider from 'next-auth/providers/github'
+import prisma from '../prisma'
 
 /**
  * NextAuthの設定オプションの生成

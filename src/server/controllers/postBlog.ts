@@ -1,4 +1,4 @@
-import { authOptions } from '@/lib/auth.config'
+import { authOptions } from '@/lib/next-auth/auth.config'
 import prisma from '@/lib/prisma'
 import type { RouteHandler } from '@hono/zod-openapi'
 import { getServerSession } from 'next-auth/next'
