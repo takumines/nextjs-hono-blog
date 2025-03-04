@@ -32,7 +32,7 @@ export const getBlogByIdRoute = createRoute({
 	responses: {
 		200: {
 			description: '成功',
-			contentZ: {
+			content: {
 				'application/json': {
 					schema: BlogSchema,
 				},
